@@ -228,6 +228,15 @@ let g:formatters_python = ['autopep8']
 
 noremap <S-f> :Autoformat<CR>
 
+"" vue
+" Syntastic or ALE: npm i -g eslint eslint-plugin-vue
+Plug 'posva/vim-vue'
+" fix highlight
+autocmd FileType vue syntax sync fromstart
+" fix slow down
+let g:vue_disable_pre_processors=1
+
+
 "" enable ycm
 source ~/.vim/ycm.vim
 
