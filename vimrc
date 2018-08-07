@@ -99,11 +99,11 @@ set noswapfile
 "set expandtab
 
 " Be smart when using tabs ;)
-set smarttab
+"set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+"set shiftwidth=4
+"set tabstop=4
 
 " Linebreak on 500 characters
 set lbr
@@ -112,8 +112,6 @@ set tw=500
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
-
-au FileType go,coffee setlocal tabstop=8 shiftwidth=8
 
 " Turn on the Wild menu
 set wildmenu
@@ -142,3 +140,7 @@ colo desert
 
 source ~/.vim/plugins.vim
 source ~/.vim/keybindings.vim
+
+"au FileType c,cpp,python setlocal tabstop=4 shiftwidth=4 expandtab
+"au FileType js,html,vue,css setlocal tabstop=2 shiftwidth=2 expandtab
+"au FileType go,coffee setlocal tabstop=8 shiftwidth=8 smarttab
