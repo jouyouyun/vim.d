@@ -3,6 +3,6 @@
 "  Set tabulator and shift width to 8
 "
 setlocal  expandtab
-setlocal  tabstop=8
-setlocal  shiftwidth=8
+setlocal  tabstop=2
+setlocal  shiftwidth=2
 "
