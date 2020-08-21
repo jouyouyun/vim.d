@@ -1,5 +1,6 @@
 "" YouCompleteMe
-Plug 'Valloric/YouCompleteMe', { 'do': 'python ~/.vim/plugged/YouCompleteMe/install.py  --clang-completer --gocode-completer  --system-libclang' }
+Plug 'Valloric/YouCompleteMe', { 'do': 'python ~/.vim/plugged/YouCompleteMe/install.py  --clang-completer --go-completer --ts-completer' }
+" Plug 'Valloric/YouCompleteMe', { 'do': 'python ~/.vim/plugged/YouCompleteMe/install.py  --clang-completer --go-completer --ts-completer --system-libclang' }
 
 "让Vim的补全菜单行为与一般IDE一致(参考VimTip1228)
 set completeopt=longest,menuone
