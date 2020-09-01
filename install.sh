@@ -14,6 +14,7 @@ cp "$HOME/.vim/vimrc" "$HOME/.vimrc"
 cp "$DIR/plugins.vim" "$HOME/.vim/plugins.vim"
 cp "$DIR/keybindings.vim" "$HOME/.vim/keybindings.vim"
 cp "$DIR/ycm.vim" "$HOME/.vim/ycm.vim"
+cp "$DIR/lsp.vim" "$HOME/.vim/lsp.vim"
 cp -R "$DIR/datas" "$HOME/.vim/datas"
 cp -R "$DIR/ftplugin" "$HOME/.vim/ftplugin"
 

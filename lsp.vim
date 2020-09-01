@@ -43,3 +43,14 @@ let g:asyncomplete_log_file = expand('/tmp/vim-asyncomplete.log')
 
 " specify alternative root markers
 let g:lsp_settings_root_markers = ['.projections.json', '.git', '.git/', '.svn', '.hg', '.bzr']
+
+" use ccls as default c/c++ server
+if executable('ccls')
+   au User lsp_setup call lsp#register_server({
+      \ 'name': 'ccls',
+      \ 'cmd': {server_info->['ccls']},
+      \ 'root_uri': {server_info->lsp#utils#path_to_uri(lsp#utils#find_nearest_parent_file_directory(lsp#utils#get_buffer_path(), 'compile_commands.json'))},
+      \ 'initialization_options': {},
+      \ 'whitelist': ['c', 'cpp', 'objc', 'objcpp', 'cc'],
+      \ })
+endif
