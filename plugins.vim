@@ -228,8 +228,19 @@ let g:formatters_python = ['autopep8']
 
 noremap <S-f> :Autoformat<CR>
 
-" ts from vim
+" ts for vim
 Plug 'leafgarland/typescript-vim'
+
+" gtags for vim
+Plug 'ivechan/gtags.vim'
+" 使用 cscope 作为 tags 命令
+set cscopetag
+" 使用 gtags-cscope 代替 cscope
+set cscopeprg="gtags-cscope"
+"gtags.vim 设置项
+let GtagsCscope_Auto_Load = 1
+let CtagsCscope_Auto_Map = 1
+let GtagsCscope_Quiet = 1
 
 "" enable ycm
 "source ~/.vim/ycm.vim
