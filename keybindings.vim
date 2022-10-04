@@ -154,6 +154,7 @@ nmap <Leader>fl :NERDTreeToggle<CR>
 
 
 "" sdcv
+"" install sdcv and configure dic
 nmap <C-\> :call SearchWord()<CR>
 
 
@@ -177,6 +178,8 @@ nmap <C-x><C-b> :CtrlPMRUFiles<CR>
 
 
 "" markdown preview
+"" https://github.com/instant-markdown/instant-markdown-d
+"" sudo npm -g install instant-markdown-d
 nmap <leader>mp :InstantMarkdownPreview
 
 
