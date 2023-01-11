@@ -242,6 +242,10 @@ let GtagsCscope_Auto_Load = 1
 let CtagsCscope_Auto_Map = 1
 let GtagsCscope_Quiet = 1
 
+" LargeFile
+" There's an option:  g:LargeFile (by default, its 100).
+Plug 'vim-scripts/LargeFile'
+
 "" enable ycm
 "source ~/.vim/ycm.vim
 
