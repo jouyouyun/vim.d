@@ -246,6 +246,11 @@ let GtagsCscope_Quiet = 1
 " There's an option:  g:LargeFile (by default, its 100).
 Plug 'vim-scripts/LargeFile'
 
+" Codeium
+" Run :Codeium Auth to set up the plugin and start using Codeium
+" Run :help codeium for a full list of commands and configuration options
+Plug 'Exafunction/codeium.vim', { 'branch': 'main'  }
+
 "" enable ycm
 "source ~/.vim/ycm.vim
 
