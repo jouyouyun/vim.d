@@ -37,8 +37,8 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 Plug 'jiangmiao/auto-pairs'
 
 
-"" multiple-cursors
-Plug 'terryma/vim-multiple-cursors'
+"" vim-visual-multi
+Plug 'mg979/vim-visual-multi'
 
 
 "" expend-region
@@ -119,7 +119,7 @@ autocmd FileType go autocmd BufWritePre <buffer> Fmt
 
 
 "" ctrlp
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 let g:ctrlp_working_path_mode = 'ra'
 " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'

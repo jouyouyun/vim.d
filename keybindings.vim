@@ -115,17 +115,6 @@ map <leader>p :cp<cr>
 nnoremap <Leader>tl :TagbarToggle<CR>
 
 
-"" multiple cursor
-" Map start key separately from next key
-" Default mapping
-"let g:multi_cursor_next_key='<C-n>'
-"let g:multi_cursor_prev_key='<C-p>'
-"let g:multi_cursor_skip_key='<C-x>'
-"let g:multi_cursor_quit_key='<Esc>'
-let g:multi_cursor_start_key='<F6>'
-let g:multi_cursor_quit_key='<C-g>'
-
-
 "" expand region
 " default
 map <Leader>+ <Plug>(expand_region_expand)
